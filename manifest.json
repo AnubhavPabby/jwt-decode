@@ -1,0 +1,19 @@
+{
+   "name": "JWT Decode",
+   "short_name": "JWT Decode",
+   "version": "1.0.0",
+   "description": "Display JWT bearer tokens",
+   "author": "Anubhav Pabby",
+   "icons": { "128": "img/icon128.png",
+              "48": "img/icon48.png" },
+   "devtools_page": "html/devtools.html",
+   "options_ui": {
+     "page": "html/options.html",
+     "open_in_tab": false
+   },
+   "permissions": [
+     "storage"
+   ],
+   "incognito": "split",
+   "manifest_version": 3
+ }
